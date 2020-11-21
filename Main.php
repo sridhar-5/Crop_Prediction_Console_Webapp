@@ -138,7 +138,7 @@
                     <p>
                         Come join the Us! Let's set up your Account.
                     </p>
-                    <form action="#">
+                    <form action="register_action.php" method="post">
                         <div class="styled-input">
                             <input type="text" placeholder="Username" name="User" id="CreateUsername">
                         </div>

@@ -2,7 +2,6 @@
 
 // Initialize the session
 session_start();
-
 // Check if the user is logged in, if not then redirect him to login page
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("Location:Main.php");
@@ -32,7 +31,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
 <div class="jumbotron" style="background-color: #3be8b0; color: #0b0b0b">
     <center><h1>Update your profile</h1></center>
-    <center><p>update your profile to start your crop prediction.</p></center>
+    <center><h3><b>Welcome <b> <?php echo $_SESSION["username"];?> </b> ,update your profile to start your crop prediction.</h3></center>
     <form action = logout_action.php method="post">
     <button  style="font-family: 'Franklin Gothic Medium';color: #0b0b0b; background-color: red;float:right;margin-right:120px;margin-top:-80px;border-radius:4px">Log Out</button>
     </form>

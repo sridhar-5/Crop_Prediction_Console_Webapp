@@ -28,6 +28,7 @@ $row =mysqli_fetch_array($result);
 if($row['username'] == $username && $row['password'] == $password){
     session_start();
     $_SESSION["loggedin"] = true;
+    $_SESSION["username"] = $username;
     header("Location:complete_profile.php");
 }
 else{

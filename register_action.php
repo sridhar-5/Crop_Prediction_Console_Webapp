@@ -1,5 +1,11 @@
 
 <?php
+/**
+ * Created by @Sridhar
+ * Date : 21-11-2020
+ * Time : 5:00 PM
+ * Created with Php Storme
+ */
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -12,9 +18,6 @@ $connection = mysqli_connect($servername,$username,$password,$database_name);
 if($connection->connect_error){
     echo "OOPS!Connection error please try again later".$connection->connect_error;
 }
-//setting the variables required for connection
-
-
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";

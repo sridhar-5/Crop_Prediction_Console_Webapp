@@ -34,6 +34,7 @@ if($row['username'] == $username && $row['password'] == $password){
 else{
     echo "<script>window.alert('Login Failed!! Username or password entered is incorrect')</script>";
     $_SESSION["loggedin"] = false;
+    $_SESSION["username"] = null;
     exit;
 }
 mysqli_close($connection);

@@ -262,10 +262,10 @@
                     <i class="fa fa-recycle" aria-hidden="true"></i>
                 </div>
                 <div class="col-xs-9 wthree-heading">
-                    <h4>Select</h4>
+                    <h4>Update</h4>
                 </div>
                 <div class="clearfix"></div>
-                <p>You can select something from the database.</p>
+                <p>Update your profile and Predict.</p>
                 <a href="#" data-toggle="modal" data-target="#myModal1" class="w3-buttons">Read More</a>
             </div>
             <div class="col-md-4 col-xs-6 agileits-services-grids">
@@ -273,48 +273,15 @@
                     <i class="fa fa-tree" aria-hidden="true"></i>
                 </div>
                 <div class="col-xs-9 wthree-heading">
-                    <h4>Save Forests</h4>
+                    <h4>Predict</h4>
                 </div>
                 <div class="clearfix"></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
+                <p>Predict suitable irrigation and crop for</p>
                 <a href="#" data-toggle="modal" data-target="#myModal1" class="w3-buttons">Read More</a>
             </div>
             <div class="clearfix"> </div>
         </div>
         <div class="agileits-services-row-2">
-            <div class="col-md-4 col-xs-6 agileits-services-grids">
-                <div class="col-xs-3 wthree-ser">
-                    <i class="fa fa-envira" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-9 wthree-heading">
-                    <h4>Planting</h4>
-                </div>
-                <div class="clearfix"></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                <a href="#" data-toggle="modal" data-target="#myModal1" class="w3-buttons">Read More</a>
-            </div>
-            <div class="col-md-4 col-xs-6 agileits-services-grids">
-                <div class="col-xs-3 wthree-ser">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-9 wthree-heading">
-                    <h4>Awareness</h4>
-                </div>
-                <div class="clearfix"></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                <a href="#" data-toggle="modal" data-target="#myModal1" class="w3-buttons">Read More</a>
-            </div>
-            <div class="col-md-4 col-xs-6 agileits-services-grids">
-                <div class="col-xs-3 wthree-ser">
-                    <i class="fa fa-pagelines" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-9 wthree-heading">
-                    <h4>Plantation</h4>
-                </div>
-                <div class="clearfix"></div>
-                <p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                <a href="#" data-toggle="modal" data-target="#myModal1" class="w3-buttons">Read More</a>
-            </div>
             <div class="clearfix"> </div>
         </div>
     </div>

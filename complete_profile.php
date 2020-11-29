@@ -7,6 +7,14 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("Location:Main.php");
     exit;
 }
+//check if the user has profile updated or not if yes redirect him to prediction page
+
+/**
+ *Created with PHP STORM
+ * Created by @Sridhar
+ * Created on 19st November 2020
+ * Time : 11:00PM
+ **/
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
@@ -17,7 +25,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "OOPS!Connection error please try again later".$connection->connect_error;
     }
     //if this step is passed then connection is successfully established
-
 
     $state_id = $_POST["State-id"];
     $state_name = $_POST["State-name"];
@@ -58,7 +65,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         mysqli_query($connection,$sql) or die("Failed to query the database".mysqli_error($connection));
 
         //redirect then
-        header("Location:Main.php");
+        header("Location:prediction.php");
+        exit;
     }
 }
 
@@ -92,6 +100,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </div>
 
 <div class="container">
+    <h4>Prediction Progress Bar:</h4>
+    <div class="progress">
+        <div class="progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60% ; text-align: center" >60%</div>
+    </div>
     <form class="form-horizontal" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>" method="post">
         <br>
         <div class="form-group">

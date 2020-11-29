@@ -5,7 +5,6 @@
  * Created on 21st November 2020
  * Time : 10:00AM
  **/
-//initialising the session
 session_start();
 //unsetting all the session variables
 $_SESSION = array();

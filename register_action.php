@@ -47,7 +47,7 @@ $username_err = $password_err = $confirm_password_err = "";
                     $username = trim($_POST["User"]);
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "<h1>Oops! Something went wrong. Please try again later. near username</h1>";
             }
 
             // Close statement

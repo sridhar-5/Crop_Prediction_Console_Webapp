@@ -13,6 +13,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: complete_profile.php");
     exit;
 }
+
 //creating a connection
 $connection = new mysqli("localhost","root","root","crop_prediction_based_on_soil_nutrient_estimation");
 
@@ -24,7 +25,7 @@ $password = mysqli_escape_string($connection,$password);
 
 //quering the database for the user
 $result = mysqli_query($connection,"select * from credentials where username = '$username' and password = '$password'") or die("Failed to query the database".mysqli_error());
-$row =mysqli_fetch_array($result);
+$row = mysqli_fetch_array($result);
 if($row['username'] == $username && $row['password'] == $password){
     session_start();
     $_SESSION["loggedin"] = true;
